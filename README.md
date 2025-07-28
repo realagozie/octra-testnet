@@ -40,7 +40,7 @@ cp EI/exec_interface.json ~/ocs01-test
 
 now you need to copy your wallet.json file from where you have been interacting before to this new dir or you can simple create it
 
-N:B...both your <wallet.json> file and <exec_interface.json> needs to be on the same directory for this to work 
+N:B...both your wallet.json file and exec_interface.json file needs to be on the same directory for this to work 
 
 ```
 nano wallet.json
@@ -53,3 +53,11 @@ nano wallet.json
   "rpc": "https://octra.network"
 }
 ```
+
+start the CLI
+
+```
+./target/release/ocs01-test
+```
+
+Interact with all the listed options at least once and you are good to go
