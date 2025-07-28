@@ -12,3 +12,43 @@ its a new CLI version, a script with alot of new interaction options available
 
 <img width="742" height="526" alt="image" src="https://github.com/user-attachments/assets/0c094f53-418d-43ab-a4d5-04a1d36a424e" />
 
+# guide
+
+change to home directory
+```
+cd ~
+```
+
+install rust if you haven't yet 
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+```
+
+clone the new repo and build
+```
+git clone https://github.com/octra-labs/ocs01-test.git
+cd ocs01-test
+cargo build --release
+```
+
+copy contract interface 
+```
+cp EI/exec_interface.json ~/ocs01-test
+```
+
+now you need to copy your wallet.json file from where you have been interacting before to this new dir or you can simple create it
+
+N:B...both your <wallet.json> file and <exec_interface.json> needs to be on the same directory for this to work 
+
+```
+nano wallet.json
+```
+
+```
+{
+  "priv": "your private key",
+  "addr": "your octra wallet address",
+  "rpc": "https://octra.network"
+}
+```
