@@ -60,6 +60,8 @@ copy the below content into the wallet.json
   "rpc": "https://octra.network"
 }
 ```
+use ctrl X then Y, then enter to save 
+
 
 start the CLI
 
