@@ -52,6 +52,7 @@ OR you can simply create it if you have your previous private key and aaddress
 nano wallet.json
 ```
 
+copy the below content into the wallet.json 
 ```
 {
   "priv": "your private key",
