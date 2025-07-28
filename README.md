@@ -19,6 +19,7 @@ change to home directory
 cd ~
 ```
 
+
 install rust if you haven't yet 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
