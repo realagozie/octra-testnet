@@ -6,6 +6,5 @@ so far we are 2 phases gone which innvolves wallet generation and the CLI intera
 
 if you are yet to generate a wallet follow through here and claim faucet https://github.com/octra-labs/wallet-gen 
 
-```
-copy test
-```
+NOW FASTWORD TO CURRENT PHASE
+its a new CLI version, a script with alot of new interaction options available
