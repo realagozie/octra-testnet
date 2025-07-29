@@ -2,7 +2,7 @@
 a guide and walkthrough for octra testnet,
 
 
-so far we are 2 phases gone which innvolves wallet generation and the CLI interactions like token sending, encryption and decryption of tokens
+so far we are 2 phases gone which involves wallet generation and the CLI interactions like token sending, encryption and decryption of tokens
 
 if you are yet to generate a wallet follow through here and claim faucet https://github.com/octra-labs/wallet-gen 
 
@@ -60,7 +60,7 @@ copy the below content into the wallet.json
   "rpc": "https://octra.network"
 }
 ```
-use ctrl X then Y, then enter to save 
+use ctrl X then Y, then ENTER to save 
 
 
 start the CLI
