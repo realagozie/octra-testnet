@@ -42,11 +42,11 @@ now you need to copy your wallet.json file from where you have been interacting 
 
 N:B...both your wallet.json file and exec_interface.json file needs to be on the same directory for this to work 
 
-you can navuigate to where the wallet.json file is and copy to the new directory
+you can navigate to where the wallet.json file is and copy to the new directory
 ```
 cp wallet.json ~/ocs01-test
 ```
-OR you can simply create it if you have your previous private key and aaddress 
+OR you can simply create it if you have your previous private key and address 
 
 ```
 nano wallet.json
